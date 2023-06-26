@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/agency-fb");
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One&display=swap");
+:root {
+  ---white: #ffffff;
+  ---txt_blue: #06416D;
+  ---group_card_h3: 36px;
+  ---group_card_h3_weight: 700;
+  ---group_card_ul_h4: 18px;
+  ---group_card_ul_light: 26px;
+  ---group_card_ul_weight: 300;
+  ---award_card_weight: 700;
+  ---award_card_h3: 28px;
+  ---award_card_pb: 48px;
+  ---award_card_p: 31px;
+  ---award_card_h3s: 16px;
+  ---award_card_pbs: 27px;
+  ---award_card_ps: 18px;
+  ---qa_h3: 36px;
+  ---qa_h3_weigth: 700;
+  ---qa_h4: 24px;
+  ---qa_h4_weight: 500;
+  ---qa_p: 16px;
+  ---qa_p_wright: 400;
+}
+@media (min-width: 768px) {
+  :root {
+    ---group_card_h3: 30px;
+    ---group_card_ul_h4: 15px;
+    ---group_card_ul_light: 22px;
+    ---award_card_h3: 21px;
+    ---award_card_pb: 36px;
+    ---award_card_p: 24px ;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    ---group_card_h3: 36px;
+    ---group_card_ul_h4: 18px;
+    ---group_card_ul_light: 26px;
+    ---award_card_h3: 28px;
+    ---award_card_pb: 48px;
+    ---award_card_p: 31px;
+    ---award_card_h3s: 21px;
+    ---award_card_pbs: 36px;
+    ---award_card_ps: 24px;
+  }
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體", "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure, ul, ol, label, span, mark {
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體", "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+form {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 736px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

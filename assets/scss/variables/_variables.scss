@@ -1,0 +1,78 @@
+:root {
+	---white: #ffffff;
+	---txt_blue: #06416D;
+
+	// group_card
+	---group_card_h3: 36px;
+	---group_card_h3_weight: 700;
+	---group_card_ul_h4: 18px;
+	---group_card_ul_light: 26px;
+	---group_card_ul_weight: 300;
+
+	// award
+	---award_card_weight: 700;
+	---award_card_h3: 28px;
+	---award_card_pb: 48px;
+	---award_card_p: 31px;
+
+	// award small
+	---award_card_h3s: 16px;
+	---award_card_pbs: 27px;
+	---award_card_ps: 18px;
+
+	// qaSect 
+	---qa_h3: 36px;
+	---qa_h3_weigth: 700;
+	---qa_h4: 24px;
+	---qa_h4_weight: 500;
+	---qa_p: 16px;
+	---qa_p_wright: 400;
+
+	@include b768 {
+		// group_card
+		---group_card_h3: 30px;
+		---group_card_ul_h4: 15px;
+		---group_card_ul_light: 22px;
+
+		// award
+		---award_card_h3: 21px;
+		---award_card_pb: 36px;
+		---award_card_p: 24px
+	}
+
+	@include b1200 {
+		// group_card
+		---group_card_h3: 36px;
+		---group_card_ul_h4: 18px;
+		---group_card_ul_light: 26px;
+
+		// award
+		---award_card_h3: 28px;
+		---award_card_pb: 48px;
+		---award_card_p: 31px;
+
+		// award small
+		---award_card_h3s: 21px;
+		---award_card_pbs: 36px;
+		---award_card_ps: 24px;
+	}
+}
+
+// 共用文字
+$fontStyle:'Noto Sans TC',
+sans-serif,
+'微軟正黑體',
+'Microsoft JhengHei',
+'Helvetica Neue',
+Helvetica,
+Arial;
+$fontAgencyFb:'Agency FB',
+sans-serif;
+$fontKumarOne: 'Kumar One',
+cursive;
+
+// 共用圖片路徑
+$headerPath : "../img/header";
+$indexPath : "../img/index";
+$signupPath : "../img/signup";
+$popPath : "../img/pop";
