@@ -1,78 +1,59 @@
+@charset 'utf-8';
 :root {
-	---white: #ffffff;
-	---txt_blue: #06416D;
+  --white: #ffffff;
+  --black: #000000;
+  --color_1: #1cafc6;
+  --color_2: #04AFF0;
+  --color_3: #E6EDF2;
+  --gray_1: #505050;
+  --gray_2: #3d3d3d;
+  --gray_3: #6f6f6f;
+  --gray_4: #F4F6F7;
 
-	// group_card
-	---group_card_h3: 36px;
-	---group_card_h3_weight: 700;
-	---group_card_ul_h4: 18px;
-	---group_card_ul_light: 26px;
-	---group_card_ul_weight: 300;
+  // banner區 使用
+  --content_h2_size: 28px;
+  --content_h2_line_height: 150%;
+  --content_p_size: 16px;
+  --note: 15px;
 
-	// award
-	---award_card_weight: 700;
-	---award_card_h3: 28px;
-	---award_card_pb: 48px;
-	---award_card_p: 31px;
-
-	// award small
-	---award_card_h3s: 16px;
-	---award_card_pbs: 27px;
-	---award_card_ps: 18px;
-
-	// qaSect 
-	---qa_h3: 36px;
-	---qa_h3_weigth: 700;
-	---qa_h4: 24px;
-	---qa_h4_weight: 500;
-	---qa_p: 16px;
-	---qa_p_wright: 400;
-
-	@include b768 {
-		// group_card
-		---group_card_h3: 30px;
-		---group_card_ul_h4: 15px;
-		---group_card_ul_light: 22px;
-
-		// award
-		---award_card_h3: 21px;
-		---award_card_pb: 36px;
-		---award_card_p: 24px
-	}
-
-	@include b1200 {
-		// group_card
-		---group_card_h3: 36px;
-		---group_card_ul_h4: 18px;
-		---group_card_ul_light: 26px;
-
-		// award
-		---award_card_h3: 28px;
-		---award_card_pb: 48px;
-		---award_card_p: 31px;
-
-		// award small
-		---award_card_h3s: 21px;
-		---award_card_pbs: 36px;
-		---award_card_ps: 24px;
-	}
+  // section 區使用
+  --img_shadow: 0px 12px 25px rgba(42, 70, 90, 0.10);
+  --img_shadow_2: 0px 0px 6px rgba(42, 70, 90, 0.20);
+  --img_shadow_3: 0px 10px 20px rgba(42, 70, 90, 0.10);
+  --title: 28px;
+  --title_strong: 16px;
+  --title_txt_sub: 24px;
+  --title_txt_sub_p: 20px;
+  
+  @include b768 {
+    --content_h2_size: 48px;
+    --content_h2_line_height: 140%;
+    --content_p_size: 24px;
+    --note: 18px;
+    --title: 48px;
+    --title_strong: 24px;
+    
+    // section 區使用
+    --img_shadow: 0px 25px 51px rgba(42, 70, 90, 0.1);
+    --img_shadow_2: 0px 0px 13px rgba(42, 70, 90, 0.20);
+    --title_txt_sub: 32px;
+    --title_txt_sub_p: 24px;
+  }
+  @include b1200 {
+    --content_h2_size: 64px;
+    --content_h2_line_height: 150%;
+    --content_p_size: 28px;
+    --note: 20px;
+    --title: 64px;
+    --title_strong: 28px;
+    --title_txt_sub: 48px;
+    --title_txt_sub_p: 28px;
+    --img_shadow_2: 0px 0px 24px rgba(42, 70, 90, 0.20);
+  }
 }
 
-// 共用文字
-$fontStyle:'Noto Sans TC',
-sans-serif,
-'微軟正黑體',
-'Microsoft JhengHei',
-'Helvetica Neue',
-Helvetica,
-Arial;
-$fontAgencyFb:'Agency FB',
-sans-serif;
-$fontKumarOne: 'Kumar One',
-cursive;
-
-// 共用圖片路徑
-$headerPath : "../img/header";
-$indexPath : "../img/index";
-$signupPath : "../img/signup";
-$popPath : "../img/pop";
+$textFont: 'Noto Sans TC', sans-serif, '微軟正黑體', 'Microsoft JhengHei', 'Helvetica Neue', Helvetica, Arial;
+$h2_shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+$p_show: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$button_shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.20);
+$gradient: transparent linear-gradient(90deg, #03aff0 0%, #9438cc 100%) 0% 0% no-repeat padding-box;
