@@ -250,7 +250,7 @@
   display: flex;
   justify-content: center;
   padding: 80px 30px;
-  .container {
+  .page_container  {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -328,7 +328,7 @@
   @include b1200 {
     padding: 100px 40px 0;
   }
-  .container {
+  .page_container  {
     max-width: 1200px;
   }
   h3.title_txt {
@@ -374,7 +374,7 @@
   @include b1200 {
     padding: 80px 40px 220px;
   }
-  .container {
+  .page_container  {
     max-width: 1036px;
   }
   h3.title_txt {

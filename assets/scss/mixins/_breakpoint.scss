@@ -6,6 +6,12 @@
   }
 }
 
+@mixin b551 {
+  @media (min-width: 551px) {
+    @content;
+  }
+}
+
 @mixin b576 {
   @media (min-width: 576px) {
     @content;
@@ -26,6 +32,11 @@
 
 @mixin b1024 {
   @media (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin b1170 {
+  @media (min-width: 1170px) {
     @content;
   }
 }

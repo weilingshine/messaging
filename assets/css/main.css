@@ -104,7 +104,7 @@ button:focus {
   font-weight: 700;
 }
 
-.container {
+.page_container {
   max-width: 840px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,6 +190,7 @@ button:focus {
 }
 
 .visionSect {
+  margin-top: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,6 +205,11 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 551px) {
+  .visionSect {
+    margin-top: 50px;
+  }
 }
 @media (min-width: 768px) {
   .visionSect {
@@ -674,7 +680,7 @@ button:focus {
           justify-content: center;
   padding: 80px 30px;
 }
-.step05Sect .container {
+.step05Sect .page_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,7 +698,7 @@ button:focus {
   max-width: 1224px;
 }
 @media (min-width: 768px) {
-  .step05Sect .container {
+  .step05Sect .page_container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -702,7 +708,7 @@ button:focus {
   }
 }
 @media (min-width: 1200px) {
-  .step05Sect .container {
+  .step05Sect .page_container {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
@@ -812,7 +818,7 @@ button:focus {
     padding: 100px 40px 0;
   }
 }
-.pg02_step01Sect .container {
+.pg02_step01Sect .page_container {
   max-width: 1200px;
 }
 .pg02_step01Sect h3.title_txt {
@@ -874,7 +880,7 @@ button:focus {
     padding: 80px 40px 220px;
   }
 }
-.pg02_step02Sect .container {
+.pg02_step02Sect .page_container {
   max-width: 1036px;
 }
 .pg02_step02Sect h3.title_txt {

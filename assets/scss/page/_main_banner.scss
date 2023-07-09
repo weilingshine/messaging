@@ -1,5 +1,6 @@
 // @import '../mixins/breakpoint';
 .visionSect {
+  margin-top: 36px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -8,6 +9,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @include b551 {
+    margin-top: 50px;
+  }
   @include b768 {
     background-size: 100% auto;
     height: 400px;
