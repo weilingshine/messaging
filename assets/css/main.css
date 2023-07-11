@@ -190,7 +190,6 @@ button:focus {
 }
 
 .visionSect {
-  margin-top: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,11 +204,6 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media (min-width: 551px) {
-  .visionSect {
-    margin-top: 50px;
-  }
 }
 @media (min-width: 768px) {
   .visionSect {
